@@ -7,7 +7,7 @@ sap.ui.define([
 
 	return Controller.extend("com.test.Z_Filtering.controller.Display", {
 		onInit: function () {
-			
+			//
 		},
 		onFilterInvoices : function (oEvent) {
 
