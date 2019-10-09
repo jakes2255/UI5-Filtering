@@ -1,0 +1,49 @@
+<mvc:View controllerName="com.test.Z_Filtering.controller.Display" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<!--<List id="invoiceList" class="sapUiResponsiveMargin" width="auto" items="{Results>/Data}">
+						<headerToolbar>
+							<Toolbar>
+								<Title text="Users"/>
+								<ToolbarSpacer/>
+								<SearchField width="50%" search="onFilterInvoices"/>
+							</Toolbar>
+						</headerToolbar>
+						<items>
+							<ObjectListItem title="{Results>User}" number="{Results>Age}"></ObjectListItem>
+						</items>
+					</List>-->
+					<Table id="invoiceList" items="{Results>/Data}" class="tablePadding" mode="MultiSelect" 
+						showNoData='false' selectionChange="onFilterInvoices">
+						<headerToolbar>
+							<Toolbar>
+								<Title text="Users"/>
+								<ToolbarSpacer/>
+								<SearchField width="50%" search="onFilterInvoices"/>
+							</Toolbar>
+						</headerToolbar>
+						<columns>
+							<Column width="12em">
+								<Text text="User"/>
+							</Column>
+							<Column hAlign="End">
+								<Text text="Age"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<cells>
+									<Text text="{Results>User}"/>
+									<Text text="{Results>Age}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

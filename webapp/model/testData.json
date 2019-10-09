@@ -1,0 +1,39 @@
+{
+	"Data":[
+		{
+			"User": "John",
+			"Age" : "05",
+			"City" : "London"
+		},
+		{
+			"User": "Lohn",
+			"Age" : "17",
+			"City" : "London"
+		},
+		{
+			"User": "Mohn",
+			"Age" : "55",
+			"City" : "Tokyo"
+		},
+		{
+			"User": "Nohn",
+			"Age" : "15",
+			"City" : "Mysore"
+		},
+		{
+			"User": "Rohn",
+			"Age" : "19",
+			"City" : "Jaipur"
+		},
+		{
+			"User": "Bohn",
+			"Age" : "20",
+			"City" : "Bangalore"
+		},
+		{
+			"User": "Dohn",
+			"Age" : "18",
+			"City" : "Bangalore"
+		}
+	]
+}
