@@ -17,9 +17,9 @@ sap.ui.define([
 			var sQuery = oEvent.getParameter("query");
 			//var sQuery = 5;
 			if (sQuery) {
-				//aFilter.push(new Filter("User", FilterOperator.Contains, sQuery));
+				aFilter.push(new Filter("User", FilterOperator.Contains, sQuery));
 				//aFilter.push(new Filter("City", FilterOperator.Contains, sQuery));
-				aFilter.push(new Filter("Age", FilterOperator.Contains, sQuery));
+				//aFilter.push(new Filter("Age", FilterOperator.Contains, sQuery));
 			}
 
 			// filter binding
